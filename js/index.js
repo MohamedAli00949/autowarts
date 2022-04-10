@@ -83,7 +83,7 @@ personsArr.forEach((item, index) => {
   const opinion = document.createElement("p");
   opinion.textContent = item.opinion;
   const rate = document.createElement("div");
-  const star = '<img src="../images/star.svg" alt="star-icon" />';
+  const star = '<img src="./images/star.svg" alt="star-icon" />';
   rate.innerHTML = star.repeat(item.rating);
   rate.className = "rating";
   details.appendChild(name);

@@ -763,6 +763,8 @@ body.open-menu {
 
   .person .opinion {
     top: 5px;
+    padding: 10px;
+    border-radius: 12px;
   }
 
   .person .opinion::before {
@@ -771,17 +773,23 @@ body.open-menu {
     border-color: transparent transparent #fff;
     border-width: 10px;
     position: absolute;
-    right: 47%;
+    right: 44%;
     top: -18px;
   }
 
-  .opinion h3 {
-    font-size: 20px;
-    margin-block: 5px;
+  .person .opinion h3 {
+    font-size: 14px;
+    margin-block: 4px;
   }
 
-  .opinion p {
-    margin-block: 8px;
+  .person .opinion p {
+    font-size: 10px;
+    margin-block: 4px;
+  }
+
+  .person .rating img {
+    width: 10px;
+    height: 10px;
   }
 }
 
