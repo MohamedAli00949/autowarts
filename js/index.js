@@ -62,10 +62,10 @@ personsArr.forEach((item, index) => {
   person.className = "person";
 
   // Get the random position for the person
-  const x = getTop(62, personsArr[index - 1]?.x + 10 || 10, "x");
-  const y = getTop(50, personsArr[index - 1]?.y + 10 || 0, "y");
+  const x = getTop(70, personsArr[index - 1]?.x + 10 || 10, "x");
+  const y = getTop(50, personsArr[index - 1]?.y + 10 || 5, "y");
   person.style.left = x + "%";
-  person.style.bottom = y + "%";
+  person.style.top = y + "%";
 
   personsArr[index].x = x;
   personsArr[index].y = y;
